@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/i/:label", "destination": "/api/i?label=:label" },
+    { "source": "/admin", "destination": "/api/admin" }
+  ]
+}
